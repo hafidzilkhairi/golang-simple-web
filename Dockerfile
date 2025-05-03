@@ -14,4 +14,6 @@ RUN go mod tidy
 
 RUN go build -o binary
 
+EXPOSE 8080
+
 ENTRYPOINT ["/app/binary"]
