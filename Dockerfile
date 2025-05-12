@@ -1,4 +1,4 @@
-FROM arm64v8/golang:1.23.0-alpine3.20
+FROM golang:1.23.0-alpine3.20
 
 RUN apk update && apk add --no-cache git
 
